@@ -21,7 +21,7 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-@WebServlet("/inserisciUtente")
+@WebServlet("/java/inserisciUtenteServlet")
 public class InserisciUtenteServlet extends HttpServlet {
     
     public static String stringToSHA2(String input) {

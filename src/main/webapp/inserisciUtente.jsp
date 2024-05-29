@@ -13,8 +13,8 @@
     </head>
     <body>
         <h2>Inserisci Nuovo Utente</h2>
-        <form action="../java/InserisciUtenteServlet.java" method="post">
-            <label for="userid">prova1</label>
+        <form action="../java/inserisciUtenteServlet" method="post">
+            <label for="userid">userid:</label>
             <input type="text" id="userid" name="userid" required value="1"><br><br>
 
             <label for="username">username:</label>
@@ -33,7 +33,6 @@
             <input type="password" id="password" name="password" required value="1234"><br><br>
 
             <input type="submit" value="Inserisci">
-
         </form>
     </body>
 </html>
