@@ -13,6 +13,6 @@
 </head>
 <body>
     <h2>Utente inserito con successo!</h2>
-    <a href="inserisciUtente.jsp">Inserisci un altro utente</a>
+    <a href="index.jsp">Inserisci un altro utente</a>
 </body>
 </html>
